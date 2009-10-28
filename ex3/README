@@ -1,7 +1,9 @@
 Short Version
 -------------
-This directory allows you to start at step 2 in Exercise3.txt, as long as you
-have iverilog and gtkwave installed.
+The contents of `adders` allows you to start at step 2 in Exercise3.txt, as long
+as you have iverilog and gtkwave installed.
+
+The contents of `alu` are all set for jumping off on the ALU task.
 
 Long Version
 ------------
@@ -9,4 +11,6 @@ This directory contains the file Exercise3.txt, which is a verbatim grab of the
 contents of http://wiki.hacdc.org/index.php/FPGAExercise3.  All the .v files
 have been extracted from it, and the typo in full_adder_4bit fixed.
 
-The standard Makefile is here, modified as in 1.a.
+The standard Makefile is in `adders`, modified as in 1.a.
+
+The unmodified standard Makefile is in `alu`.
